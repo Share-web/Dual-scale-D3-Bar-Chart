@@ -1,20 +1,30 @@
-Dual-scale-D3-Bar-Chart
-========================
+# 
 
-![Preview](preview/thumbnail.png)
 
-This is a demo for creating dual-scaled bar charts using D3.js
+## 简介
 
-I came across this task when I was working on a simple HTML project. As I googled around and, unfortunately, could not find any example, I decided to do it myself.
+- 特色：
+- 体验网址：
+## 安装运行
 
-Please bear in mind that I am new to D3.js and this is actually my first time using it. I had heard of D3.js but never used it.
+``` bash
+# install dependencies
+npm install
 
-Hope that this could be of use to someone. All suggestions for improvement are welcome.
+# serve with hot reload at localhost:8080（kp.oa.com）
+npm run dev
 
-Note: since d3.js uses ajax to load tsv files, the files contained in the src folder cannot be run in a browser using file:///. Execute the following command under the src directory to create a HTTP server.
+# build for production with minification
+npm run build
 
-    python -m SimpleHTTPServer
+# build for production and view the bundle analyzer report
+npm run build --report
 
-Use the following URL to access index.html
+```
 
-    http://localhost:8000/index.html
+## 快速使用
+
+简单接入的使用文档
+
+## 交流 & 提问
+
